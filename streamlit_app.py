@@ -738,20 +738,36 @@ Ranking_worst_case_51 = pd.DataFrame({
 })
 
 
+ranking_list = [
+    Ranking_worst_case_1, Ranking_worst_case_2, Ranking_worst_case_3, Ranking_worst_case_4,
+    Ranking_worst_case_5, Ranking_worst_case_6, Ranking_worst_case_7, Ranking_worst_case_8,
+    Ranking_worst_case_9, Ranking_worst_case_10, Ranking_worst_case_11, Ranking_worst_case_12,
+    Ranking_worst_case_13, Ranking_worst_case_14, Ranking_worst_case_15, Ranking_worst_case_16,
+    Ranking_worst_case_17, Ranking_worst_case_18, Ranking_worst_case_19, Ranking_worst_case_20,
+    Ranking_worst_case_21, Ranking_worst_case_22, Ranking_worst_case_23, Ranking_worst_case_24,
+    Ranking_worst_case_25, Ranking_worst_case_26, Ranking_worst_case_27, Ranking_worst_case_28,
+    Ranking_worst_case_29, Ranking_worst_case_30, Ranking_worst_case_31, Ranking_worst_case_32,
+    Ranking_worst_case_33, Ranking_worst_case_34, Ranking_worst_case_35, Ranking_worst_case_36,
+    Ranking_worst_case_37, Ranking_worst_case_38, Ranking_worst_case_39, Ranking_worst_case_40,
+    Ranking_worst_case_41, Ranking_worst_case_42, Ranking_worst_case_43, Ranking_worst_case_44,
+    Ranking_worst_case_45, Ranking_worst_case_46, Ranking_worst_case_47, Ranking_worst_case_48,
+    Ranking_worst_case_49, Ranking_worst_case_50, Ranking_worst_case_51
+]
+
 ## For Redispatch and Switching
 Switching_1 = pd.DataFrame({
-    "Line Name": [ "Line 08-28 Trip" ],
-    "Action": [ " Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+    "Line Name": [ "Line 08-28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
 })
 
 Switching_2 = pd.DataFrame({
-    "Line Name": [ "Line 08-28 Trip" ],
-    "Action": [ " Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+    "Line Name": [ "Line 08-28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
 })
 
 Switching_3 = pd.DataFrame({
     "Line Name": [ "Line 08 - 28" ],
-    "Action": [ " Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
 })
 
 Switching_4 = pd.DataFrame({
@@ -759,6 +775,250 @@ Switching_4 = pd.DataFrame({
     "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" , "Switching : 'All Breakers <br> No Redispatch" ]
 })
 
+Switching_5 = pd.DataFrame({
+    "Line Name": [ "Line 08-28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+})
+
+Switching_6 = pd.DataFrame({
+    "Line Name": [ "Line 08-28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+})
+
+Switching_7 = pd.DataFrame({
+    "Line Name": [ "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers' <br> No Redispatch" ]
+})
+
+Switching_8 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+})
+
+Switching_9 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+})
+
+Switching_10 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+})
+
+Switching_11 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+})
+
+Switching_12 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+})
+
+Switching_13 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch" ]
+})
+
+Switching_14 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> Redispatch : Can not Redispatch from Gen No.5 because more Overload in Line. Use other way to reduce overload." ]
+})
+
+Switching_15 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> Redispatch : Can not Redispatch from Gen No.5 because more Overload in Line. Use other way to reduce overload." ]
+})
+
+Switching_16 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_17 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_18 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_19 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_20 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> Redispatch : Can not Redispatch from Gen No.5 because more Overload in Line. Use other way to reduce overload. " ]
+})
+
+Switching_21 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" , "Trf B06 - B10" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " , "Switching : All Breakers <br> No Redispatch " ]
+})
+
+Switching_22 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_23 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_24 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_25 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_26 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_27 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28" ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_28 = pd.DataFrame({
+    "Line Name": [ "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers ' <br> No Redispatch " ]
+})
+
+Switching_29 = pd.DataFrame({
+    "Line Name": [ "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers ' <br> No Redispatch " ]
+})
+
+Switching_30 = pd.DataFrame({
+    "Line Name": [ "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers ' <br> Redispatch : 75%% Full Gen " ]
+})
+
+Switching_31 = pd.DataFrame({
+    "Line Name": [ "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers ' <br> Redispatch : 75%% Full Gen " ]
+})
+
+Switching_32 = pd.DataFrame({
+    "Line Name": [ "Line 06 - 08" , "Line 10 - 20" , "Line 18 - 19" , "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers ' <br> Redispatch : 75%% Full Gen " , "Switching : 'BKR.B21-B22' & 'BKR.B22-B26 ' <br> No Redispatch " , "Switching : 'All Breakers ' <br> No Redispatch" , "Switching : 'All Breakers ' <br> Redispatch : 90%% Full Gen " ]
+})
+
+Switching_33 = pd.DataFrame({
+    "Line Name": [ "Line 10 - 20" , "Line 18 - 19" , "Trf B06 - B10" ],
+    "Action": [ "Switching : 'BKR.B21-B22' & 'BKR.B22-B26 ' <br> No Redispatch " , "Switching : 'All Breakers ' <br> No Redispatch" , "Switching : 'All Breakers ' <br> Redispatch : 90%% Full Gen " ]
+})
+
+Switching_34 = pd.DataFrame({
+    "Line Name": [ "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers ' <br> Redispatch : 90%% Full Gen " ]
+})
+
+Switching_35 = pd.DataFrame({
+    "Line Name": [ "Line 18 - 19" , "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers ' <br> No Redispatch" , "Switching : 'All Breakers ' <br> Redispatch : 75%% Full Gen " ]
+})
+
+Switching_36 = pd.DataFrame({
+    "Line Name": [ "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers ' <br> No Redispatch " ]
+})
+
+Switching_37 = pd.DataFrame({
+    "Line Name": [ "Trf B06 - B10" ],
+    "Action": [ "Switching : 'All Breakers ' <br> No Redispatch " ]
+})
+
+Switching_38 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_39 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_40 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_41 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_42 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_43 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_44 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_45 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_46 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_47 = pd.DataFrame({
+    "Line Name": [ "Line 08 - 28"  ],
+    "Action": [ "Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' <br> No Redispatch " ]
+})
+
+Switching_48 = pd.DataFrame({
+    "Line Name": [ " "  ],
+    "Action": [ "No Switching <br> No Redispatch " ]
+})
+
+Switching_49 = pd.DataFrame({
+    "Line Name": [ " "  ],
+    "Action": [ "No Switching <br> No Redispatch " ]
+})
+
+Switching_50 = pd.DataFrame({
+    "Line Name": [ " "  ],
+    "Action": [ "No Switching <br> No Redispatch " ]
+})
+
+Switching_51 = pd.DataFrame({
+    "Line Name": [ "Trf B06 - B10"   ],
+    "Action": [ "Switching : 'All Breakers' <br> No Redispatch " ]
+})
+
+switching_list = [
+    Switching_1, Switching_2, Switching_3, Switching_4, Switching_5, Switching_6, Switching_7, Switching_8,
+    Switching_9, Switching_10, Switching_11, Switching_12, Switching_13, Switching_14, Switching_15, Switching_16,
+    Switching_17, Switching_18, Switching_19, Switching_20, Switching_21, Switching_22, Switching_23, Switching_24,
+    Switching_25, Switching_26, Switching_27, Switching_28, Switching_29, Switching_30, Switching_31, Switching_32,
+    Switching_33, Switching_34, Switching_35, Switching_36, Switching_37, Switching_38, Switching_39, Switching_40,
+    Switching_41, Switching_42, Switching_43, Switching_44, Switching_45, Switching_46, Switching_47, Switching_48,
+    Switching_49, Switching_50, Switching_51
+]
 
 
 #Switching_2 = ( { "Line 08-28 Trip": " Switching : 'BKR.B15-B23' & 'BKR.B21-B22' & 'BKR.B22-B26' " } )
@@ -781,8 +1041,9 @@ with col1 :
     if 'n' not in st.session_state:
         st.session_state.n = 0
 
+    #For Show Time for Test
     str2 = f"{st.session_state.n } Sec."
-    #st.code(str2)
+    st.code(str2)
 
     Selection = st.selectbox("Select Line Trip", ["Line 06-08 Trip", "Line 10-17 Trip", "Line 10-20 Trip", "Line 10-21 Trip", "Line 12-13 Trip", "Line 12-14 Trip", "Line 18-19 Trip", 
                                                 "Line 23-24 Trip", "Line 24-25 Trip", "Line 25-26 Trip", "Line 25-27 Trip", "Trf B04-B12 Trip", "Trf B06-B10 Trip"])
@@ -1080,47 +1341,22 @@ if Selection == 'Trf B06-B10 Trip':
         st.image('Picture/Trf B06-B10.png')
  
 
-## For Ranking Line every 5 sec.
-if st.session_state.n < 15 :
-    with col4:
-        st.markdown("###### *Ranking worst case* ")
-        st.markdown( custom_css + Ranking_worst_case_1.to_html(escape=False, index=False), unsafe_allow_html=True)
-    #    st.dataframe(Ranking_worst_case_1 , hide_index=True , use_container_width=False )
+# Calculate which set to show every 15 seconds
+interval = 15
+idx = int(st.session_state.n // interval)
+if idx >= len(ranking_list):
+    idx = len(ranking_list)  # Prevent index out of range
 
-        st.markdown("###### *Switching and Redispatch* ")
-        st.markdown( custom_Redispatch + Switching_1.to_html(escape=False, index=False), unsafe_allow_html=True)
-    #    st.dataframe(Switching_1 , hide_index=True , use_container_width=True )
+with col4:
+    st.markdown("###### *Ranking worst case* ")
+    st.markdown(custom_css + ranking_list[idx].to_html(escape=False, index=False), unsafe_allow_html=True)
 
-elif st.session_state.n < 30 :
-    with col4:
-        st.markdown("###### *Ranking worst case* ")
-        st.markdown( custom_css + Ranking_worst_case_2.to_html(escape=False, index=False), unsafe_allow_html=True)
-    #    st.dataframe(Ranking_worst_case_53)
-
-        st.markdown("###### *Switching and Redispatch* ")
-        st.markdown( custom_Redispatch + Switching_2.to_html(escape=False, index=False), unsafe_allow_html=True)
-    #    st.dataframe(Switching_53)
-
-elif st.session_state.n < 45 :
-    with col4:
-        st.markdown("###### *Ranking worst case* ")
-        st.markdown( custom_css + Ranking_worst_case_3.to_html(escape=False, index=False), unsafe_allow_html=True)
-    #    st.dataframe(Ranking_worst_case_2)
-
-        st.markdown("###### *Switching and Redispatch* ")
-        st.markdown( custom_Redispatch + Switching_3.to_html(escape=False, index=False), unsafe_allow_html=True)
-    #    st.dataframe(Switching_2)
-
-elif st.session_state.n < 60 :
-    with col4:
-        st.markdown("###### *Ranking worst case* ")
-        st.markdown( custom_css + Ranking_worst_case_4.to_html(escape=False, index=False), unsafe_allow_html=True)
-
-        st.markdown("###### *Switching and Redispatch* ")
-        st.markdown( custom_Redispatch + Switching_4.to_html(escape=False, index=False), unsafe_allow_html=True)
+    st.markdown("###### *Switching and Redispatch* ")
+    st.markdown(custom_Redispatch + switching_list[idx].to_html(escape=False, index=False), unsafe_allow_html=True)
 
 
-st.success('This is a success message!', icon="🟧")
+
+#st.success('This is a success message!', icon="🟧")
 
 #st.write(
 #    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
