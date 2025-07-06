@@ -1382,7 +1382,7 @@ st.success("Let's start building! For help and inspiration, head over to [docs.s
 st.success("If you want a codes, can download at my Github (https://github.com/pluem34/blank-app.git).")
 
 
-# For update data every 5 sec.
+# For update data every 7.5 sec.
 time.sleep(7.5)
 st.session_state.n += 7.5
 st.rerun()
