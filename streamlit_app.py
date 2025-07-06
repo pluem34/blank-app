@@ -1358,9 +1358,29 @@ with col4:
 
 #st.success('This is a success message!', icon="🟧")
 
-#st.write(
-#    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-#)
+st.write(
+    " "
+)
+
+st.write(
+    " "
+)
+
+st.write(
+    " "
+)
+
+st.write(
+    " "
+)
+
+st.write(
+    " "
+)
+
+st.success("Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).")
+st.success("If you want a codes, can download at my Github (https://github.com/pluem34/blank-app.git).")
+
 
 # For update data every 5 sec.
 time.sleep(7.5)
